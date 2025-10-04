@@ -35,3 +35,10 @@ where = ["src"]
 
 [tool.setuptools.dynamic]
 version = {attr = "pathchain.__version__"}
+
+
+[tool.pytest.ini_options]
+addopts = "--cov=pathchain"
+testpaths = [
+    "tests",
+]
