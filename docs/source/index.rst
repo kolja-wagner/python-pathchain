@@ -23,6 +23,10 @@ and they are subclassing :py:class:`python:str` instead of :py:class:`python:pat
    setup
    package
    changelog
+   
+You can find more information on
+- the `repository <https://github.com/kolja-wagner/pathchain>`_
+- the `documentation <https://python-pathchain.readthedocs.io/en/latest/>`_
 
 
 Indices and tables

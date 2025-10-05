@@ -43,4 +43,4 @@ pip install -e .[dev,doc]
 
 <!-- [PyPI page](https://pypi.org/project/pathchain/) -->
 - [Repository](https://github.com/kolja-wagner/pathchain)
-<!-- [Documentation](https://pathchain.readthedocs.io/en/latest/) -->
+- [Documentation](https://python-pathchain.readthedocs.io/en/latest/)
