@@ -28,7 +28,7 @@ pip install pathchain
 
 - Clone the repository (HTTPS):
 ```bash
-git clone https://github.com/kolja-wagner/pathchain.git
+git clone https://github.com/kolja-wagner/python-pathchain.git
 ```
 - Clone the repository (SSH):
 ```
