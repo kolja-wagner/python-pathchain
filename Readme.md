@@ -32,7 +32,7 @@ git clone https://github.com/kolja-wagner/pathchain.git
 ```
 - Clone the repository (SSH):
 ```
-git clone git@github.com:kolja-wagner/pathchain.git
+git clone git@github.com:kolja-wagner/python-pathchain.git
 ```
 - Install dependencies
 ```
@@ -41,6 +41,7 @@ pip install -e .[dev,doc]
 
 ## Links
 
-<!-- [PyPI page](https://pypi.org/project/pathchain/) -->
-- [Repository](https://github.com/kolja-wagner/pathchain)
+- [PyPI page](https://pypi.org/project/pathchain/)
+- [Repository](https://github.com/kolja-wagner/python-pathchain/)
 - [Documentation](https://python-pathchain.readthedocs.io/en/latest/)
+
