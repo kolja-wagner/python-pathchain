@@ -14,7 +14,10 @@ Example ::
 
     from pathchain import Path
     
-    path_file = Path.home().joinpath("test").mkdir(exist_ok).touch()
+    path_file = Path.home()\
+                .joinpath("test")\
+                .mkdir(exist_ok)\
+                .touch()
     
     
 Reference
