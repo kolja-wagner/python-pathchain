@@ -6,6 +6,7 @@ Implementation of the pathlib.Path object
 """
 
 from pathlib import Path as _Path
+from typing import Callable
 
 class Path(type(_Path())):
     """
@@ -116,3 +117,15 @@ class Path(type(_Path())):
         """
         assert self.exists(), f"{self.resolve()} does not exist"
         return self
+
+    def pipe(self, func: Callable, *args, **kwargs) -> "Path":
+        """
+        Apply a function to this Path object and return the result.
+        This method enables a functional programming style similar to pandas DataFrame.pipe(),
+        allowing you to chain operations on Path objects by passing them through custom functions.
+        :param func: A callable that accepts this Path object as its first argument
+        :param args: Positional arguments to pass to func after the Path object
+        :param kwargs: Keyword arguments to pass to func
+        :return: The result of applying func to this Path object
+        """
+        return func(self, *args, **kwargs)

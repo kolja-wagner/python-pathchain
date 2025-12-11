@@ -26,8 +26,8 @@ classifiers = [
 ]
 
 [project.urls]
-#Documentation = "..."
-Repository = "https://github.com/kolja-wagner/pathchain"
+Documentation = "https://python-pathchain.readthedocs.io/en/latest/"
+Repository = "https://github.com/kolja-wagner/python-pathchain"
 
 
 [project.optional-dependencies]
