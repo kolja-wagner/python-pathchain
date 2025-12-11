@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.1.*
+------
+* Implementing :py:meth:`pathchain.Path.pipe` similar to the pipe mechanism of `pandas.DataFrame <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.pipe.html>`_.
+
 v1.0.*
 ------
 Implementing a chainable replacement for :py:class:`python:pathlib.Path`
