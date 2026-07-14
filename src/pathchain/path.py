@@ -130,3 +130,10 @@ class Path(type(_Path())):
         :return: The result of applying func to this Path object
         """
         return func(self, *args, **kwargs)
+    
+    def sglob(self, pattern: str, *, case_sensitive=None, recurse_symlinks=False):
+        """ An addition to self.glob, that returns a sorted list of the glob results.
+        For documentation see :py:meth:`python:pathlib.Path.glob`.
+        """
+        return sorted(self.glob(pattern, case_sensitive=case_sensitive, recurse_symlinks=recurse_symlinks))
+    
