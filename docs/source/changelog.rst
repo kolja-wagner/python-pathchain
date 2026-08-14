@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.2.*
+------
+* Implementing :py:meth:`pathchain.Path.sglob`, same as  :py:meth:`pathchain.Path.glob` but returns a sorted list.
+
 v1.1.*
 ------
 * Implementing :py:meth:`pathchain.Path.pipe` similar to the pipe mechanism of `pandas.DataFrame <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.pipe.html>`_.
